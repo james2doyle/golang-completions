@@ -27,6 +27,7 @@ These helpers are pulled from [official golang documentation](https://golang.org
 **This package is still under development. It only includes the following packages:**
 
 * [builtin](https://golang.org/pkg/builtin/)
+* [bytes](https://golang.org/pkg/bytes/)
 * [context](https://golang.org/pkg/context/)
 * [errors](https://golang.org/pkg/errors/)
 * [fmt](https://golang.org/pkg/fmt/)

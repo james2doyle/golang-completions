@@ -381,5 +381,149 @@
   }, {
     "trigger": "fmt.Stringer\ttype Stringer",
     "contents": "fmt.Stringer$0"
+  }, {
+    "trigger": "bytes.Buffer\ttype Buffer",
+    "contents": "bytes.Buffer$0"
+  }, {
+    "trigger": "bytes.Compare\tfunc Compare(a, b []byte) int",
+    "contents": "bytes.Compare(${1:a}, b []byte)$0"
+  }, {
+    "trigger": "bytes.Contains\tfunc Contains(b, subslice []byte) bool",
+    "contents": "bytes.Contains(${1:b}, ${2:subslice []byte})$0"
+  }, {
+    "trigger": "bytes.ContainsAny\tfunc ContainsAny(b []byte, chars string) bool",
+    "contents": "bytes.ContainsAny(${1:b []byte}, ${2:chars string})$0"
+  }, {
+    "trigger": "bytes.ContainsRune\tfunc ContainsRune(b []byte, r rune) bool",
+    "contents": "bytes.ContainsRune(${1:b []byte}, ${2:r rune})$0"
+  }, {
+    "trigger": "bytes.Count\tfunc Count(s, sep []byte) int",
+    "contents": "bytes.Count(${1:s}, ${2:sep []byte})$0"
+  }, {
+    "trigger": "bytes.Equal\tfunc Equal(a, b []byte) bool",
+    "contents": "bytes.Equal(${1:a}, ${2:b []byte})$0"
+  }, {
+    "trigger": "bytes.EqualFold\tfunc EqualFold(s, t []byte) bool",
+    "contents": "bytes.EqualFold(${1:s}, ${2:t []byte})$0"
+  }, {
+    "trigger": "bytes.Fields\tfunc Fields(s []byte) [][]byte",
+    "contents": "bytes.Fields(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.FieldsFunc\tfunc FieldsFunc(s []byte, f func(rune) bool) [][]byte",
+    "contents": "bytes.FieldsFunc(${1:s []byte}, ${2:f func(rune) bool})$0"
+  }, {
+    "trigger": "bytes.HasPrefix\tfunc HasPrefix(s, prefix []byte) bool",
+    "contents": "bytes.HasPrefix(${1:s}, ${2:prefix []byte})$0"
+  }, {
+    "trigger": "bytes.HasSuffix\tfunc HasSuffix(s, suffix []byte) bool",
+    "contents": "bytes.HasSuffix(${1:s}, ${2:suffix []byte})$0"
+  }, {
+    "trigger": "bytes.Index\tfunc Index(s, sep []byte) int",
+    "contents": "bytes.Index(${1:s}, ${2:sep []byte})$0"
+  }, {
+    "trigger": "bytes.IndexAny\tfunc IndexAny(s []byte, chars string) int",
+    "contents": "bytes.IndexAny(${1:s []byte}, ${2:chars string})$0"
+  }, {
+    "trigger": "bytes.IndexByte\tfunc IndexByte(s []byte, c byte) int",
+    "contents": "bytes.IndexByte(${1:s []byte}, ${2:c byte})$0"
+  }, {
+    "trigger": "bytes.IndexFunc\tfunc IndexFunc(s []byte, f func(r rune) bool) int",
+    "contents": "bytes.IndexFunc(${1:s []byte}, ${2:f func(r rune) bool})$0"
+  }, {
+    "trigger": "bytes.IndexRune\tfunc IndexRune(s []byte, r rune) int",
+    "contents": "bytes.IndexRune(${1:s []byte}, ${2:r rune})$0"
+  }, {
+    "trigger": "bytes.Join\tfunc Join(s [][]byte, sep []byte) []byte",
+    "contents": "bytes.Join(${1:s [][]byte}, ${2:sep []byte})$0"
+  }, {
+    "trigger": "bytes.LastIndex\tfunc LastIndex(s, sep []byte) int",
+    "contents": "bytes.LastIndex(${1:s}, ${2:sep []byte})$0"
+  }, {
+    "trigger": "bytes.LastIndexAny\tfunc LastIndexAny(s []byte, chars string) int",
+    "contents": "bytes.LastIndexAny(${1:s []byte}, ${2:chars string})$0"
+  }, {
+    "trigger": "bytes.LastIndexByte\tfunc LastIndexByte(s []byte, c byte) int",
+    "contents": "bytes.LastIndexByte(${1:s []byte}, ${2:c byte})$0"
+  }, {
+    "trigger": "bytes.LastIndexFunc\tfunc LastIndexFunc(s []byte, f func(r rune) bool) int",
+    "contents": "bytes.LastIndexFunc(${1:s []byte}, ${2:f func(r rune) bool})$0"
+  }, {
+    "trigger": "bytes.Map\tfunc Map(mapping func(r rune) rune, s []byte) []byte",
+    "contents": "bytes.Map(${1:mapping func(r rune) rune}, ${2:s []byte})$0"
+  }, {
+    "trigger": "bytes.Repeat\tfunc Repeat(b []byte, count int) []byte",
+    "contents": "bytes.Repeat(${1:b []byte}, ${2:count int})$0"
+  }, {
+    "trigger": "bytes.Replace\tfunc Replace(s, old, new []byte, n int) []byte",
+    "contents": "bytes.Replace(${1:s}, ${2:old}, ${3:new []byte}, ${4:n int})$0"
+  }, {
+    "trigger": "bytes.Runes\tfunc Runes(s []byte) []rune",
+    "contents": "bytes.Runes(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.Split\tfunc Split(s, sep []byte) [][]byte",
+    "contents": "bytes.Split(${1:s}, ${2:sep []byte})$0"
+  }, {
+    "trigger": "bytes.SplitAfter\tfunc SplitAfter(s, sep []byte) [][]byte",
+    "contents": "bytes.SplitAfter(${1:s}, ${2:sep []byte})$0"
+  }, {
+    "trigger": "bytes.SplitAfterN\tfunc SplitAfterN(s, sep []byte, n int) [][]byte",
+    "contents": "bytes.SplitAfterN(${1:s}, ${2:sep []byte}, ${3:n int})$0"
+  }, {
+    "trigger": "bytes.SplitN\tfunc SplitN(s, sep []byte, n int) [][]byte",
+    "contents": "bytes.SplitN(${1:s}, ${2:sep []byte}, ${3:n int})$0"
+  }, {
+    "trigger": "bytes.Title\tfunc Title(s []byte) []byte",
+    "contents": "bytes.Title(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.ToLower\tfunc ToLower(s []byte) []byte",
+    "contents": "bytes.ToLower(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.ToLowerSpecial\tfunc ToLowerSpecial(c unicode.SpecialCase, s []byte) []byte",
+    "contents": "bytes.ToLowerSpecial(${1:c unicode.SpecialCase}, ${2:s []byte})$0"
+  }, {
+    "trigger": "bytes.ToTitle\tfunc ToTitle(s []byte) []byte",
+    "contents": "bytes.ToTitle(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.ToTitleSpecial\tfunc ToTitleSpecial(c unicode.SpecialCase, s []byte) []byte",
+    "contents": "bytes.ToTitleSpecial(${1:c unicode.SpecialCase}, ${2:s []byte})$0"
+  }, {
+    "trigger": "bytes.ToUpper\tfunc ToUpper(s []byte) []byte",
+    "contents": "bytes.ToUpper(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.ToUpperSpecial\tfunc ToUpperSpecial(c unicode.SpecialCase, s []byte) []byte",
+    "contents": "bytes.ToUpperSpecial(${1:c unicode.SpecialCase}, ${2:s []byte})$0"
+  }, {
+    "trigger": "bytes.Trim\tfunc Trim(s []byte, cutset string) []byte",
+    "contents": "bytes.Trim(${1:s []byte}, ${2:cutset string})$0"
+  }, {
+    "trigger": "bytes.TrimFunc\tfunc TrimFunc(s []byte, f func(r rune) bool) []byte",
+    "contents": "bytes.TrimFunc(${1:s []byte}, ${2:f func(r rune) bool})$0"
+  }, {
+    "trigger": "bytes.TrimLeft\tfunc TrimLeft(s []byte, cutset string) []byte",
+    "contents": "bytes.TrimLeft(${1:s []byte}, ${2:cutset string})$0"
+  }, {
+    "trigger": "bytes.TrimLeftFunc\tfunc TrimLeftFunc(s []byte, f func(r rune) bool) []byte",
+    "contents": "bytes.TrimLeftFunc(${1:s []byte}, ${2:f func(r rune) bool})$0"
+  }, {
+    "trigger": "bytes.TrimPrefix\tfunc TrimPrefix(s, prefix []byte) []byte",
+    "contents": "bytes.TrimPrefix(${1:s}, ${2:prefix []byte})$0"
+  }, {
+    "trigger": "bytes.TrimRight\tfunc TrimRight(s []byte, cutset string) []byte",
+    "contents": "bytes.TrimRight(${1:s []byte}, ${2:cutset string})$0"
+  }, {
+    "trigger": "bytes.TrimRightFunc\tfunc TrimRightFunc(s []byte, f func(r rune) bool) []byte",
+    "contents": "bytes.TrimRightFunc(${1:s []byte}, ${2:f func(r rune) bool})$0"
+  }, {
+    "trigger": "bytes.TrimSpace\tfunc TrimSpace(s []byte) []byte",
+    "contents": "bytes.TrimSpace(${1:s []byte})$0"
+  }, {
+    "trigger": "bytes.TrimSuffix\tfunc TrimSuffix(s, suffix []byte) []byte",
+    "contents": "bytes.TrimSuffix(${1:s}, ${2:suffix []byte})$0"
+  }, {
+    "trigger": "bytes.NewBuffer\tfunc NewBuffer(buf []byte) *Buffer",
+    "contents": "bytes.NewBuffer(${1:buf []byte})$0"
+  }, {
+    "trigger": "bytes.NewBufferString\tfunc NewBufferString(s string) *Buffer",
+    "contents": "bytes.NewBufferString(${1:s string})$0"
   }]
 }
