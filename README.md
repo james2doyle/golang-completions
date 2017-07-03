@@ -2,7 +2,7 @@
 
 __this package is still under development__
 
-> A set of completions for Go 1.8.x functions, types, interfaces, methods.
+> A set of completions for Go 1.8.x functions, types, interfaces, and methods
 
 These helpers are pulled from [golang.org/pkg/](https://golang.org/pkg/).
 
