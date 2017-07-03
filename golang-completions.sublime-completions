@@ -385,6 +385,9 @@
     "trigger": "bytes.Buffer\ttype Buffer",
     "contents": "bytes.Buffer$0"
   }, {
+    "trigger": "bytes.Reader\ttype Reader",
+    "contents": "bytes.Reader$0"
+  }, {
     "trigger": "bytes.Compare\tfunc Compare(a, b []byte) int",
     "contents": "bytes.Compare(${1:a}, b []byte)$0"
   }, {
@@ -520,10 +523,14 @@
     "trigger": "bytes.TrimSuffix\tfunc TrimSuffix(s, suffix []byte) []byte",
     "contents": "bytes.TrimSuffix(${1:s}, ${2:suffix []byte})$0"
   }, {
-    "trigger": "bytes.NewBuffer\tfunc NewBuffer(buf []byte) *Buffer",
-    "contents": "bytes.NewBuffer(${1:buf []byte})$0"
+    "trigger": "bytes.Buffer.NewBuffer\tfunc NewBuffer(buf []byte) *Buffer",
+    "contents": "bytes.Buffer.NewBuffer(${1:buf []byte})$0"
   }, {
-    "trigger": "bytes.NewBufferString\tfunc NewBufferString(s string) *Buffer",
-    "contents": "bytes.NewBufferString(${1:s string})$0"
+    "trigger": "bytes.Buffer.NewBufferString\tfunc NewBufferString(s string) *Buffer",
+    "contents": "bytes.Buffer.NewBufferString(${1:s string})$0"
+  },
+  {
+    "trigger": "bytes.Reader.NewReader\tfunc NewReader(b []byte) *Reader",
+    "contents": "bytes.Reader.NewReader(${1:b []byte})$0"
   }]
 }
