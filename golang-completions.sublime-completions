@@ -532,5 +532,49 @@
   {
     "trigger": "bytes.Reader.NewReader\tfunc NewReader(b []byte) *Reader",
     "contents": "bytes.Reader.NewReader(${1:b []byte})$0"
+  },
+  {
+    "trigger": "time.Duration\ttype Duration",
+    "contents": "time.Duration$0"
+  },
+  {
+    "trigger": "time.Location\ttype Location",
+    "contents": "time.Location$0"
+  },
+  {
+    "trigger": "time.Month\ttype Month",
+    "contents": "time.Month$0"
+  },
+  {
+    "trigger": "time.ParseError\ttype ParseError",
+    "contents": "time.ParseError$0"
+  },
+  {
+    "trigger": "time.Ticker\ttype Ticker",
+    "contents": "time.Ticker$0"
+  },
+  {
+    "trigger": "time.Time\ttype Time",
+    "contents": "time.Time$0"
+  },
+  {
+    "trigger": "time.Timer\ttype Timer",
+    "contents": "time.Timer$0"
+  },
+  {
+    "trigger": "time.Weekday\ttype Weekday",
+    "contents": "time.Weekday$0"
+  },
+  {
+    "trigger": "time.After\tfunc After(d Duration) <-chan Time",
+    "contents": "time.After(${1:d Duration})$0"
+  },
+  {
+    "trigger": "time.Sleep\tfunc Sleep(d Duration)",
+    "contents": "time.Sleep(${1:d Duration})$0"
+  },
+  {
+    "trigger": "time.Tick\tfunc Tick(d Duration) <-chan Time",
+    "contents": "time.Tick(${1:d Duration})$0"
   }]
 }

@@ -32,3 +32,4 @@ These helpers are pulled from [official golang documentation](https://golang.org
 * [errors](https://golang.org/pkg/errors/)
 * [fmt](https://golang.org/pkg/fmt/)
 * [strings](https://golang.org/pkg/strings/)
+* [time](https://golang.org/pkg/time/)
