@@ -1,0 +1,385 @@
+{
+  "scope": "source.go - string - comment - constant.numeric",
+  "completions": [{
+    "trigger": "defer",
+    "contents": "defer"
+  }, {
+    "trigger": "chan",
+    "contents": "chan"
+  }, {
+    "trigger": "range\tfor range",
+    "contents": "for ${1:k,v} := range ${2:items} {\n\t${3:// ...}\n}$0"
+  }, {
+    "trigger": "fori\tfor i loop",
+    "contents": "for i := ${1:0}; i < ${2:10}; i++ {\n\t${3:// ...}\n}$0"
+  }, {
+    "trigger": "while\tfor (while) loop",
+    "contents": "for ${1:true} ${2:== true} {\n\t${3:// ...}\n}$0"
+  }, {
+    "trigger": "infinite\tfor (infinite) loop",
+    "contents": "for {\n\t${1:// ...}\n}$0"
+  }, {
+    "trigger": "append\tfunc append(slice []Type, elems ...Type) []Type",
+    "contents": "append(${1:slice []Type}, ${2:elems ...Type})$0"
+  }, {
+    "trigger": "cap\tfunc cap(v Type) int",
+    "contents": "cap(${1:v Type})$0"
+  }, {
+    "trigger": "close\tfunc close(c chan<- Type)",
+    "contents": "close(${1:c chan<- Type})$0"
+  }, {
+    "trigger": "complex\tfunc complex(r, i FloatType) ComplexType",
+    "contents": "complex(${1:r}, ${2:i FloatType})$0"
+  }, {
+    "trigger": "copy\tfunc copy(dst, src []Type) int",
+    "contents": "copy(${1:dst}, ${2:src []Type})$0"
+  }, {
+    "trigger": "delete\tfunc delete(m map[Type]Type1, key Type)",
+    "contents": "delete(${1:m map[Type]Type1}, ${2:key Type})$0"
+  }, {
+    "trigger": "imag\tfunc imag(c ComplexType) FloatType",
+    "contents": "imag(${1:c ComplexType})$0"
+  }, {
+    "trigger": "len\tfunc len(v Type) int",
+    "contents": "len(${1:v Type})$0"
+  }, {
+    "trigger": "make\tfunc make(Type, size IntegerType) Type",
+    "contents": "make(${1:Type}, ${2:size IntegerType})$0"
+  }, {
+    "trigger": "new\tfunc new(Type) *Type",
+    "contents": "new(${1:Type})$0"
+  }, {
+    "trigger": "panic\tfunc panic(v interface{})",
+    "contents": "panic(${1:v interface\\{\\}})$0"
+  }, {
+    "trigger": "print\tfunc print(args ...Type)",
+    "contents": "print(${1:args ...Type})$0"
+  }, {
+    "trigger": "println\tfunc println(args ...Type)",
+    "contents": "println(${1:args ...Type})$0"
+  }, {
+    "trigger": "real\tfunc real(c ComplexType) FloatType",
+    "contents": "real(${1:c ComplexType})$0"
+  }, {
+    "trigger": "recover\tfunc recover() interface{}",
+    "contents": "recover()$0"
+  }, {
+    "trigger": "errors.New\tfunc New(text string) error",
+    "contents": "errors.New(${1:text string})$0"
+  }, {
+    "trigger": "type\ttype ComplexType",
+    "contents": "ComplexType"
+  }, {
+    "trigger": "type\ttype FloatType",
+    "contents": "FloatType"
+  }, {
+    "trigger": "type\ttype IntegerType",
+    "contents": "IntegerType"
+  }, {
+    "trigger": "type\ttype Type",
+    "contents": "Type"
+  }, {
+    "trigger": "type\ttype Type1",
+    "contents": "Type1"
+  }, {
+    "trigger": "type\ttype bool",
+    "contents": "bool"
+  }, {
+    "trigger": "type\ttype byte",
+    "contents": "byte"
+  }, {
+    "trigger": "type\ttype complex128",
+    "contents": "complex128"
+  }, {
+    "trigger": "type\ttype complex64",
+    "contents": "complex64"
+  }, {
+    "trigger": "type\ttype error",
+    "contents": "error"
+  }, {
+    "trigger": "type\ttype float32",
+    "contents": "float32"
+  }, {
+    "trigger": "type\ttype float64",
+    "contents": "float64"
+  }, {
+    "trigger": "type\ttype int",
+    "contents": "int"
+  }, {
+    "trigger": "type\ttype int16",
+    "contents": "int16"
+  }, {
+    "trigger": "type\ttype int32",
+    "contents": "int32"
+  }, {
+    "trigger": "type\ttype int64",
+    "contents": "int64"
+  }, {
+    "trigger": "type\ttype int8",
+    "contents": "int8"
+  }, {
+    "trigger": "type\ttype rune",
+    "contents": "rune"
+  }, {
+    "trigger": "type\ttype string",
+    "contents": "string"
+  }, {
+    "trigger": "type\ttype uint",
+    "contents": "uint"
+  }, {
+    "trigger": "type\ttype uint16",
+    "contents": "uint16"
+  }, {
+    "trigger": "type\ttype uint32",
+    "contents": "uint32"
+  }, {
+    "trigger": "type\ttype uint64",
+    "contents": "uint64"
+  }, {
+    "trigger": "type\ttype uint8",
+    "contents": "uint8"
+  }, {
+    "trigger": "type\ttype uintptr",
+    "contents": "uintptr"
+  }, {
+    "trigger": "strings.Compare\tfunc Compare(a, b string) int",
+    "contents": "strings.Compare(${1:a}, ${2:b string})"
+  }, {
+    "trigger": "strings.Contains\tfunc Contains(s, substr string) bool",
+    "contents": "strings.Contains(${1:s}, ${2:substr string})"
+  }, {
+    "trigger": "strings.ContainsAny\tfunc ContainsAny(s, chars string) bool",
+    "contents": "strings.ContainsAny(${1:s}, ${2:chars string})"
+  }, {
+    "trigger": "strings.ContainsRune\tfunc ContainsRune(s string, r rune) bool",
+    "contents": "strings.ContainsRune(${1:s string}, ${2:r rune})"
+  }, {
+    "trigger": "strings.Count\tfunc Count(s, sep string) int",
+    "contents": "strings.Count(${1:s}, ${2:sep string})"
+  }, {
+    "trigger": "strings.EqualFold\tfunc EqualFold(s, t string) bool",
+    "contents": "strings.EqualFold(${1:s}, ${2:t string})"
+  }, {
+    "trigger": "strings.Fields\tfunc Fields(s string) []string",
+    "contents": "strings.Fields(${1:s string})"
+  }, {
+    "trigger": "strings.FieldsFunc\tfunc FieldsFunc(s string, f func(rune) bool) []string",
+    "contents": "strings.FieldsFunc(${1:s string}, ${2:f func(rune) bool)}"
+  }, {
+    "trigger": "strings.HasPrefix\tfunc HasPrefix(s, prefix string) bool",
+    "contents": "strings.HasPrefix(${1:s}, ${2:prefix string})"
+  }, {
+    "trigger": "strings.HasSuffix\tfunc HasSuffix(s, suffix string) bool",
+    "contents": "strings.HasSuffix(${1:s}, ${2:suffix string})"
+  }, {
+    "trigger": "strings.Index\tfunc Index(s, sep string) int",
+    "contents": "strings.Index(${1:s}, ${2:sep string})"
+  }, {
+    "trigger": "strings.IndexAny\tfunc IndexAny(s, chars string) int",
+    "contents": "strings.IndexAny(${1:s}, ${2:chars string})"
+  }, {
+    "trigger": "strings.IndexByte\tfunc IndexByte(s string, c byte) int",
+    "contents": "strings.IndexByte(${1:s string}, ${2:c byte})"
+  }, {
+    "trigger": "strings.IndexFunc\tfunc IndexFunc(s string, f func(rune) bool) int",
+    "contents": "strings.IndexFunc(${1:s string}, ${2:f func(rune) bool})"
+  }, {
+    "trigger": "strings.IndexRune\tfunc IndexRune(s string, r rune) int",
+    "contents": "strings.IndexRune(${1:s string}, ${2:r rune})"
+  }, {
+    "trigger": "strings.Join\tfunc Join(a []string, sep string) string",
+    "contents": "strings.Join(${1:a []string}, ${2:sep string})"
+  }, {
+    "trigger": "strings.LastIndex\tfunc LastIndex(s, sep string) int",
+    "contents": "strings.LastIndex(${1:s}, ${2:sep string})"
+  }, {
+    "trigger": "strings.LastIndexAny\tfunc LastIndexAny(s, chars string) int",
+    "contents": "strings.LastIndexAny(${1:s}, ${2:chars string})"
+  }, {
+    "trigger": "strings.LastIndexByte\tfunc LastIndexByte(s string, c byte) int",
+    "contents": "strings.LastIndexByte(${1:s string}, ${2:c byte})"
+  }, {
+    "trigger": "strings.LastIndexFunc\tfunc LastIndexFunc(s string, f func(rune) bool) int",
+    "contents": "strings.LastIndexFunc(${1:s string}, ${2:f func(rune) bool})"
+  }, {
+    "trigger": "strings.Map\tfunc Map(mapping func(rune) rune, s string) string",
+    "contents": "strings.Map(${1:mapping func(rune) rune}, ${2:s string})"
+  }, {
+    "trigger": "strings.Repeat\tfunc Repeat(s string, count int) string",
+    "contents": "strings.Repeat(${1:s string}, ${2:count int})"
+  }, {
+    "trigger": "strings.Replace\tfunc Replace(s, old, new string, n int) string",
+    "contents": "strings.Replace(${1:s}, ${2:old}, ${3:new string}, ${4:n int})"
+  }, {
+    "trigger": "strings.Split\tfunc Split(s, sep string) []string",
+    "contents": "strings.Split(${1:s}, ${2:sep string})"
+  }, {
+    "trigger": "strings.SplitAfter\tfunc SplitAfter(s, sep string) []string",
+    "contents": "strings.SplitAfter(${1:s}, ${2:sep string})"
+  }, {
+    "trigger": "strings.SplitAfterN\tfunc SplitAfterN(s, sep string, n int) []string",
+    "contents": "strings.SplitAfterN(${1:s}, ${2:sep string}, ${3:n int})"
+  }, {
+    "trigger": "strings.SplitN\tfunc SplitN(s, sep string, n int) []string",
+    "contents": "strings.SplitN(${1:s}, ${2:sep string}, ${3:n int})"
+  }, {
+    "trigger": "strings.Title\tfunc Title(s string) string",
+    "contents": "strings.Title(${1:s string})"
+  }, {
+    "trigger": "strings.ToLower\tfunc ToLower(s string) string",
+    "contents": "strings.ToLower(${1:s string})"
+  }, {
+    "trigger": "strings.ToLowerSpecial\tfunc ToLowerSpecial(c unicode.SpecialCase, s string) string",
+    "contents": "strings.ToLowerSpecial(${1:c unicode.SpecialCase}, ${2:s string})"
+  }, {
+    "trigger": "strings.ToTitle\tfunc ToTitle(s string) string",
+    "contents": "strings.ToTitle(${1:s string})"
+  }, {
+    "trigger": "strings.ToTitleSpecial\tfunc ToTitleSpecial(c unicode.SpecialCase, s string) string",
+    "contents": "strings.ToTitleSpecial(${1:c unicode.SpecialCase}, ${2:s string})"
+  }, {
+    "trigger": "strings.ToUpper\tfunc ToUpper(s string) string",
+    "contents": "strings.ToUpper(${1:s string})"
+  }, {
+    "trigger": "strings.ToUpperSpecial\tfunc ToUpperSpecial(c unicode.SpecialCase, s string) string",
+    "contents": "strings.ToUpperSpecial(${1:c unicode.SpecialCase}, ${2:s string})"
+  }, {
+    "trigger": "strings.Trim\tfunc Trim(s string, cutset string) string",
+    "contents": "strings.Trim(${1:s string}, ${2:cutset string})"
+  }, {
+    "trigger": "strings.TrimFunc\tfunc TrimFunc(s string, f func(rune) bool) string",
+    "contents": "strings.TrimFunc(${1:s string}, ${2:f func(rune) bool})"
+  }, {
+    "trigger": "strings.TrimLeft\tfunc TrimLeft(s string, cutset string) string",
+    "contents": "strings.TrimLeft(${1:s string}, ${2:cutset string})"
+  }, {
+    "trigger": "strings.TrimLeftFunc\tfunc TrimLeftFunc(s string, f func(rune) bool) string",
+    "contents": "strings.TrimLeftFunc(${1:s string}, ${2:f func(rune) bool})"
+  }, {
+    "trigger": "strings.TrimPrefix\tfunc TrimPrefix(s, prefix string) string",
+    "contents": "strings.TrimPrefix(${1:s}, ${2:prefix string})"
+  }, {
+    "trigger": "strings.TrimRight\tfunc TrimRight(s string, cutset string) string",
+    "contents": "strings.TrimRight(${1:s string}, ${2:cutset string})"
+  }, {
+    "trigger": "strings.TrimRightFunc\tfunc TrimRightFunc(s string, f func(rune) bool) string",
+    "contents": "strings.TrimRightFunc(${1:s string}, ${2:f func(rune) bool})"
+  }, {
+    "trigger": "strings.TrimSpace\tfunc TrimSpace(s string) string",
+    "contents": "strings.TrimSpace(${1:s string})"
+  }, {
+    "trigger": "strings.TrimSuffix\tfunc TrimSuffix(s, suffix string) string",
+    "contents": "strings.TrimSuffix(${1:s}, ${2:suffix string})"
+  }, {
+    "trigger": "strings.Reader\ttype Reader",
+    "contents": "strings.Reader$0"
+  }, {
+    "trigger": "strings.Replacer\ttype Replacer",
+    "contents": "strings.Replacer$0"
+  }, {
+    "trigger": "strings.NewReader\tfunc NewReader(s string) *Reader",
+    "contents": "strings.NewReader(${1:s string})$0"
+  }, {
+    "trigger": "strings.NewReplacer\tfunc NewReplacer(oldnew ...string) *Replacer",
+    "contents": "strings.NewReplacer(${1:oldnew ...string})$0"
+  }, {
+    "trigger": "context.CancelFunc\ttype CancelFunc",
+    "contents": "context.CancelFunc"
+  }, {
+    "trigger": "context.Context\ttype Context",
+    "contents": "context.Context"
+  }, {
+    "trigger": "context.Background\tfunc Background() Context",
+    "contents": "context.Background()$0"
+  }, {
+    "trigger": "context.TODO\tfunc TODO() Context",
+    "contents": "context.TODO()$0"
+  }, {
+    "trigger": "context.WithCancel\tfunc WithCancel(parent Context) (ctx Context, cancel CancelFunc)",
+    "contents": "context.WithCancel(${1:parent Context})$0"
+  }, {
+    "trigger": "context.WithDeadline\tfunc WithDeadline(parent Context, deadline time.Time) (Context, CancelFunc)",
+    "contents": "context.WithDeadline(${1:parent Context}, ${2:deadline time.Time})$0"
+  }, {
+    "trigger": "context.WithTimeout\tfunc WithTimeout(parent Context, timeout time.Duration) (Context, CancelFunc)",
+    "contents": "context.WithTimeout(${1:parent Context}, ${2:timeout time.Duration})$0"
+  }, {
+    "trigger": "context.WithValue\tfunc WithValue(parent Context, key, val interface{}) Context",
+    "contents": "context.WithValue(${1:parent Context}, ${2:key}, ${3:val interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Errorf\tfunc Errorf(format string, a ...interface{}) error",
+    "contents": "fmt.Errorf(${1:format string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Fprint\tfunc Fprint(w io.Writer, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Fprint(${1:w io.Writer}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Fprintf\tfunc Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Fprintf(${1:w io.Writer}, ${2:format string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Fprintln\tfunc Fprintln(w io.Writer, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Fprintln(${1:w io.Writer}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Fscan\tfunc Fscan(r io.Reader, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Fscan(${1:r io.Reader}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Fscanf\tfunc Fscanf(r io.Reader, format string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Fscanf(${1:r io.Reader}, ${2:format string}, ${3:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Fscanln\tfunc Fscanln(r io.Reader, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Fscanln(${1:r io.Reader}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Print\tfunc Print(a ...interface{}) (n int, err error)",
+    "contents": "fmt.Print(${1:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Printf\tfunc Printf(format string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Printf(${1:format string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Println\tfunc Println(a ...interface{}) (n int, err error)",
+    "contents": "fmt.Println(${1:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Scan\tfunc Scan(a ...interface{}) (n int, err error)",
+    "contents": "fmt.Scan(${1:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Scanf\tfunc Scanf(format string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Scanf(${1:format string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Scanln\tfunc Scanln(a ...interface{}) (n int, err error)",
+    "contents": "fmt.Scanln(${1:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Sprint\tfunc Sprint(a ...interface{}) string",
+    "contents": "fmt.Sprint(${1:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Sprintf\tfunc Sprintf(format string, a ...interface{}) string",
+    "contents": "fmt.Sprintf(${1:format string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Sprintln\tfunc Sprintln(a ...interface{}) string",
+    "contents": "fmt.Sprintln(${1:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Sscan\tfunc Sscan(str string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Sscan(${1:str string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Sscanf\tfunc Sscanf(str string, format string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Sscanf(${1:str string}, ${2:format string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Sscanln\tfunc Sscanln(str string, a ...interface{}) (n int, err error)",
+    "contents": "fmt.Sscanln(${1:str string}, ${2:a ...interface\\{\\}})$0"
+  }, {
+    "trigger": "fmt.Formatter\ttype Formatter",
+    "contents": "fmt.Formatter$0"
+  }, {
+    "trigger": "fmt.GoStringer\ttype GoStringer",
+    "contents": "fmt.GoStringer$0"
+  }, {
+    "trigger": "fmt.ScanState\ttype ScanState",
+    "contents": "fmt.ScanState$0"
+  }, {
+    "trigger": "fmt.Scanner\ttype Scanner",
+    "contents": "fmt.Scanner$0"
+  }, {
+    "trigger": "fmt.State\ttype State",
+    "contents": "fmt.State$0"
+  }, {
+    "trigger": "fmt.Stringer\ttype Stringer",
+    "contents": "fmt.Stringer$0"
+  }]
+}
