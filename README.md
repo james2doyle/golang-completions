@@ -24,7 +24,7 @@ These helpers are pulled from [official golang documentation](https://golang.org
 
 ## List
 
-*This package is still under development*
+**This package is still under development. It only includes the following packages:**
 
 * [builtin](https://golang.org/pkg/builtin/)
 * [context](https://golang.org/pkg/context/)
